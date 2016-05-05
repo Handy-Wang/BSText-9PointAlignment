@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33A6462F1CDAE4DE00944E04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A6462E1CDAE4DE00944E04 /* main.m */; };
+		33A646321CDAE4DE00944E04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A646311CDAE4DE00944E04 /* AppDelegate.m */; };
+		33A6463A1CDAE4DE00944E04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A646391CDAE4DE00944E04 /* Assets.xcassets */; };
+		33A6463D1CDAE4DE00944E04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A6463B1CDAE4DE00944E04 /* LaunchScreen.storyboard */; };
+		33A646481CDAE4DE00944E04 /* BSText_9PointAlignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A646471CDAE4DE00944E04 /* BSText_9PointAlignmentTests.m */; };
+		33A646531CDAE4DE00944E04 /* BSText_9PointAlignmentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A646521CDAE4DE00944E04 /* BSText_9PointAlignmentUITests.m */; };
+		33A646681CDAE50E00944E04 /* BSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A646631CDAE50E00944E04 /* BSTextField.m */; };
+		33A646691CDAE50E00944E04 /* BSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A646651CDAE50E00944E04 /* BSTextView.m */; };
+		33A6466D1CDAE5ED00944E04 /* BSUITestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A6466C1CDAE5ED00944E04 /* BSUITestVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33A646441CDAE4DE00944E04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33A646221CDAE4DE00944E04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33A646291CDAE4DE00944E04;
+			remoteInfo = "BSText-9PointAlignment";
+		};
+		33A6464F1CDAE4DE00944E04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33A646221CDAE4DE00944E04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33A646291CDAE4DE00944E04;
+			remoteInfo = "BSText-9PointAlignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33A6462A1CDAE4DE00944E04 /* BSText-9PointAlignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BSText-9PointAlignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A6462E1CDAE4DE00944E04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33A646301CDAE4DE00944E04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33A646311CDAE4DE00944E04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33A646391CDAE4DE00944E04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33A6463C1CDAE4DE00944E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33A6463E1CDAE4DE00944E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A646431CDAE4DE00944E04 /* BSText-9PointAlignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BSText-9PointAlignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A646471CDAE4DE00944E04 /* BSText_9PointAlignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSText_9PointAlignmentTests.m; sourceTree = "<group>"; };
+		33A646491CDAE4DE00944E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A6464E1CDAE4DE00944E04 /* BSText-9PointAlignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BSText-9PointAlignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A646521CDAE4DE00944E04 /* BSText_9PointAlignmentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSText_9PointAlignmentUITests.m; sourceTree = "<group>"; };
+		33A646541CDAE4DE00944E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A646611CDAE50E00944E04 /* BSTextAlignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTextAlignment.h; sourceTree = "<group>"; };
+		33A646621CDAE50E00944E04 /* BSTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTextField.h; sourceTree = "<group>"; };
+		33A646631CDAE50E00944E04 /* BSTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTextField.m; sourceTree = "<group>"; };
+		33A646641CDAE50E00944E04 /* BSTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTextView.h; sourceTree = "<group>"; };
+		33A646651CDAE50E00944E04 /* BSTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTextView.m; sourceTree = "<group>"; };
+		33A6466B1CDAE5ED00944E04 /* BSUITestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSUITestVC.h; sourceTree = "<group>"; };
+		33A6466C1CDAE5ED00944E04 /* BSUITestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSUITestVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33A646271CDAE4DE00944E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A646401CDAE4DE00944E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A6464B1CDAE4DE00944E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33A646211CDAE4DE00944E04 = {
+			isa = PBXGroup;
+			children = (
+				33A6462C1CDAE4DE00944E04 /* BSText-9PointAlignment */,
+				33A646461CDAE4DE00944E04 /* BSText-9PointAlignmentTests */,
+				33A646511CDAE4DE00944E04 /* BSText-9PointAlignmentUITests */,
+				33A6462B1CDAE4DE00944E04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33A6462B1CDAE4DE00944E04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33A6462A1CDAE4DE00944E04 /* BSText-9PointAlignment.app */,
+				33A646431CDAE4DE00944E04 /* BSText-9PointAlignmentTests.xctest */,
+				33A6464E1CDAE4DE00944E04 /* BSText-9PointAlignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33A6462C1CDAE4DE00944E04 /* BSText-9PointAlignment */ = {
+			isa = PBXGroup;
+			children = (
+				33A646301CDAE4DE00944E04 /* AppDelegate.h */,
+				33A646311CDAE4DE00944E04 /* AppDelegate.m */,
+				33A6466B1CDAE5ED00944E04 /* BSUITestVC.h */,
+				33A6466C1CDAE5ED00944E04 /* BSUITestVC.m */,
+				33A646601CDAE50E00944E04 /* BSText-9PointAlignment */,
+				33A646391CDAE4DE00944E04 /* Assets.xcassets */,
+				33A6463B1CDAE4DE00944E04 /* LaunchScreen.storyboard */,
+				33A6463E1CDAE4DE00944E04 /* Info.plist */,
+				33A6462D1CDAE4DE00944E04 /* Supporting Files */,
+			);
+			path = "BSText-9PointAlignment";
+			sourceTree = "<group>";
+		};
+		33A6462D1CDAE4DE00944E04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33A6462E1CDAE4DE00944E04 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33A646461CDAE4DE00944E04 /* BSText-9PointAlignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				33A646471CDAE4DE00944E04 /* BSText_9PointAlignmentTests.m */,
+				33A646491CDAE4DE00944E04 /* Info.plist */,
+			);
+			path = "BSText-9PointAlignmentTests";
+			sourceTree = "<group>";
+		};
+		33A646511CDAE4DE00944E04 /* BSText-9PointAlignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33A646521CDAE4DE00944E04 /* BSText_9PointAlignmentUITests.m */,
+				33A646541CDAE4DE00944E04 /* Info.plist */,
+			);
+			path = "BSText-9PointAlignmentUITests";
+			sourceTree = "<group>";
+		};
+		33A646601CDAE50E00944E04 /* BSText-9PointAlignment */ = {
+			isa = PBXGroup;
+			children = (
+				33A646611CDAE50E00944E04 /* BSTextAlignment.h */,
+				33A646621CDAE50E00944E04 /* BSTextField.h */,
+				33A646631CDAE50E00944E04 /* BSTextField.m */,
+				33A646641CDAE50E00944E04 /* BSTextView.h */,
+				33A646651CDAE50E00944E04 /* BSTextView.m */,
+			);
+			path = "BSText-9PointAlignment";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33A646291CDAE4DE00944E04 /* BSText-9PointAlignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A646571CDAE4DE00944E04 /* Build configuration list for PBXNativeTarget "BSText-9PointAlignment" */;
+			buildPhases = (
+				33A646261CDAE4DE00944E04 /* Sources */,
+				33A646271CDAE4DE00944E04 /* Frameworks */,
+				33A646281CDAE4DE00944E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BSText-9PointAlignment";
+			productName = "BSText-9PointAlignment";
+			productReference = 33A6462A1CDAE4DE00944E04 /* BSText-9PointAlignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33A646421CDAE4DE00944E04 /* BSText-9PointAlignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A6465A1CDAE4DE00944E04 /* Build configuration list for PBXNativeTarget "BSText-9PointAlignmentTests" */;
+			buildPhases = (
+				33A6463F1CDAE4DE00944E04 /* Sources */,
+				33A646401CDAE4DE00944E04 /* Frameworks */,
+				33A646411CDAE4DE00944E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33A646451CDAE4DE00944E04 /* PBXTargetDependency */,
+			);
+			name = "BSText-9PointAlignmentTests";
+			productName = "BSText-9PointAlignmentTests";
+			productReference = 33A646431CDAE4DE00944E04 /* BSText-9PointAlignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33A6464D1CDAE4DE00944E04 /* BSText-9PointAlignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A6465D1CDAE4DE00944E04 /* Build configuration list for PBXNativeTarget "BSText-9PointAlignmentUITests" */;
+			buildPhases = (
+				33A6464A1CDAE4DE00944E04 /* Sources */,
+				33A6464B1CDAE4DE00944E04 /* Frameworks */,
+				33A6464C1CDAE4DE00944E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33A646501CDAE4DE00944E04 /* PBXTargetDependency */,
+			);
+			name = "BSText-9PointAlignmentUITests";
+			productName = "BSText-9PointAlignmentUITests";
+			productReference = 33A6464E1CDAE4DE00944E04 /* BSText-9PointAlignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33A646221CDAE4DE00944E04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Handy;
+				TargetAttributes = {
+					33A646291CDAE4DE00944E04 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4B9ANE4H78;
+					};
+					33A646421CDAE4DE00944E04 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4B9ANE4H78;
+						TestTargetID = 33A646291CDAE4DE00944E04;
+					};
+					33A6464D1CDAE4DE00944E04 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4B9ANE4H78;
+						TestTargetID = 33A646291CDAE4DE00944E04;
+					};
+				};
+			};
+			buildConfigurationList = 33A646251CDAE4DE00944E04 /* Build configuration list for PBXProject "BSText-9PointAlignment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33A646211CDAE4DE00944E04;
+			productRefGroup = 33A6462B1CDAE4DE00944E04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33A646291CDAE4DE00944E04 /* BSText-9PointAlignment */,
+				33A646421CDAE4DE00944E04 /* BSText-9PointAlignmentTests */,
+				33A6464D1CDAE4DE00944E04 /* BSText-9PointAlignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33A646281CDAE4DE00944E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A6463D1CDAE4DE00944E04 /* LaunchScreen.storyboard in Resources */,
+				33A6463A1CDAE4DE00944E04 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A646411CDAE4DE00944E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A6464C1CDAE4DE00944E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33A646261CDAE4DE00944E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A646691CDAE50E00944E04 /* BSTextView.m in Sources */,
+				33A646321CDAE4DE00944E04 /* AppDelegate.m in Sources */,
+				33A6466D1CDAE5ED00944E04 /* BSUITestVC.m in Sources */,
+				33A646681CDAE50E00944E04 /* BSTextField.m in Sources */,
+				33A6462F1CDAE4DE00944E04 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A6463F1CDAE4DE00944E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A646481CDAE4DE00944E04 /* BSText_9PointAlignmentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A6464A1CDAE4DE00944E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A646531CDAE4DE00944E04 /* BSText_9PointAlignmentUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33A646451CDAE4DE00944E04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33A646291CDAE4DE00944E04 /* BSText-9PointAlignment */;
+			targetProxy = 33A646441CDAE4DE00944E04 /* PBXContainerItemProxy */;
+		};
+		33A646501CDAE4DE00944E04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33A646291CDAE4DE00944E04 /* BSText-9PointAlignment */;
+			targetProxy = 33A6464F1CDAE4DE00944E04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33A6463B1CDAE4DE00944E04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33A6463C1CDAE4DE00944E04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33A646551CDAE4DE00944E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33A646561CDAE4DE00944E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33A646581CDAE4DE00944E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BSText-9PointAlignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.handy.BSText-9PointAlignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33A646591CDAE4DE00944E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BSText-9PointAlignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.handy.BSText-9PointAlignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33A6465B1CDAE4DE00944E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BSText-9PointAlignmentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.handy.BSText-9PointAlignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BSText-9PointAlignment.app/BSText-9PointAlignment";
+			};
+			name = Debug;
+		};
+		33A6465C1CDAE4DE00944E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BSText-9PointAlignmentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.handy.BSText-9PointAlignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BSText-9PointAlignment.app/BSText-9PointAlignment";
+			};
+			name = Release;
+		};
+		33A6465E1CDAE4DE00944E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BSText-9PointAlignmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.handy.BSText-9PointAlignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BSText-9PointAlignment";
+			};
+			name = Debug;
+		};
+		33A6465F1CDAE4DE00944E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BSText-9PointAlignmentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.handy.BSText-9PointAlignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BSText-9PointAlignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33A646251CDAE4DE00944E04 /* Build configuration list for PBXProject "BSText-9PointAlignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A646551CDAE4DE00944E04 /* Debug */,
+				33A646561CDAE4DE00944E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33A646571CDAE4DE00944E04 /* Build configuration list for PBXNativeTarget "BSText-9PointAlignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A646581CDAE4DE00944E04 /* Debug */,
+				33A646591CDAE4DE00944E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33A6465A1CDAE4DE00944E04 /* Build configuration list for PBXNativeTarget "BSText-9PointAlignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A6465B1CDAE4DE00944E04 /* Debug */,
+				33A6465C1CDAE4DE00944E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33A6465D1CDAE4DE00944E04 /* Build configuration list for PBXNativeTarget "BSText-9PointAlignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A6465E1CDAE4DE00944E04 /* Debug */,
+				33A6465F1CDAE4DE00944E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33A646221CDAE4DE00944E04 /* Project object */;
+}
