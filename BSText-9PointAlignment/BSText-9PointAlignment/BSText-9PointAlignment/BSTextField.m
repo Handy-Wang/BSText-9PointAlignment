@@ -21,11 +21,6 @@
 
 #pragma mark - Override methods - text alignment
 
-- (NSTextAlignment)textAlignment
-{
-    return (NSTextAlignment)_text9PointAlignment;
-}
-
 - (void)setTextAlignment:(NSTextAlignment)textAlignment
 {
     if (textAlignment == NSTextAlignmentCenter) {
